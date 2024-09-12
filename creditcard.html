@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-card">
+        <div class="card-front">
+            <div class="logo">
+                <h2 class="name">PREMIUM</h2>
+                <img src="img/logo.png" alt="" class="banklogo">
+                <img src="img/Untitled-1.png" alt="" class="chip">
+                <img src="img/Vector.png" alt="" class="wifi">
+                <div id="card-no-show" class="number">0123 4567 8910 1112</div>
+                <p class="validdate">
+                    <span class="text">VALID
+                        <br>
+                        DATE
+                    </span>
+                    <span id="card-expire-show" class="date">12/22</span>
+                </p>
+                <div id="owner-name-show" class="holder">OWNER NAME</div>
+                <div><img src="img/path3789.png" alt="" class="visa"></div>
+            </div>
+        </div>
+        <div class="card-back">
+            <div class="blackbar"></div>
+            <div id="cvc-code-show" class="cvc">699</div>
+            <div class="sticker">
+                <HR></HR>
+                <HR></HR>
+                <HR></HR>
+                <HR></HR>
+                <HR></HR>
+                <HR></HR>
+                <HR></HR>
+                <HR></HR>
+            </div>
+            <div class="terms">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellendus sit repellat nesciunt libero tempora voluptatem,
+                est quidem, quis nulla ducimus at architecto consequatur illo
+                laborum. Quod distinctio et mollitia voluptates perferendis
+                eligendi</p>
+            </div>
+        </div>
+    </div>
+    <div class="form-content">
+        <div class="input-wrap">
+            <label>Owner Name</label>
+            <input id="owner-name" class="input-field" type="text">
+        </div>
+        <div class="input-wrap">
+            <label>Card Number</label>
+            <input id="card-no" class="input-field" type="text" maxlength="16">
+        </div>
+        <div class="input-wrap half">
+            <label>MM / YY</label>
+            <input id="card-expire" class="input-field" type="text" maxlength="4">
+        </div>
+        <div class="input-wrap half">
+            <label>CVC Code</label>
+            <input id="cvc-code" class="input-field password-field" type="text" maxlength="3">
+        </div>
+        <div class="pay-btn btn">Pay Now</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
